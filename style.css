@@ -1,0 +1,62 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Styles the box containing the code */
+pre {
+  background-color: #1e1e1e; /* A dark charcoal gray */
+  padding: 15px;
+  border-radius: 5px;
+  overflow-x: auto;         /* Adds a scrollbar if code is too long */
+}
+
+/* Styles the text inside the code box */
+pre code {
+  color: #ffffff;           /* Keeps text white */
+  font-family: 'Courier New', monospace;
+}
+
+/* BELOW IS FOR SIDE-BY-SIDE PICTURES */
+/* This makes the container align its contents horizontally */
+.image-row {
+  display: flex;
+  gap: 10px;           /* Adds a small space between the images */
+  margin: 20px 0;      /* Adds space above and below the row */
+}
+
+/* This ensures each image takes up exactly half the width */
+.image-row img {
+  flex: 1;             /* Makes images grow equally to fill the row */
+  width: 50%;          /* Fallback for older browsers */
+  max-width: 100%;     /* Prevents them from overflowing */
+  height: auto;        /* Keeps the image aspect ratio correct */
+}
+
+/* Trying to fix spaces between h1 and h2 */
+h1 {
+  margin-bottom: 0; /* Removes space below h1 */
+}
+
+h2 {
+  margin-top: 0;    /* Removes space above h2 */
+  margin-bottom: 0; /* Removes space below h2 */
+}
+
+/* Custom Hyperlink Colors for Dark Background */
+a:link {
+  color: #FFCC00 !important; /* Golden yellow for unvisited links */
+  text-decoration: underline; /* Ensures the link remains underlined */
+}
+
+a:visited {
+  color: #FF9900 !important; /* Slightly darker orange-yellow for clicked links */
+}
+
+a:hover {
+  color: #FFFFFF !important; /* Turns white when a user hovers over it */
+}
+
+a:active {
+  color: #FFA500 !important; /* Turns a bright orange when clicked */
+}
