@@ -36,6 +36,7 @@ pre code {
 /* Trying to fix spaces between h1 and h2 */
 h1 {
   margin-bottom: 0; /* Removes space below h1 */
+  line-height: 1.2; /* Fix h1 text wrapping space */
 }
 
 h2 {
