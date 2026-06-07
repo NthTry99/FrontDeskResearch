@@ -44,6 +44,11 @@ h2 {
   margin-bottom: 0; /* Removes space below h2 */
 }
 
+/* Fix space b/t TOC label and contents */
+h2 + ul {
+  margin-top: 0.25rem; 
+}
+
 /* Custom Hyperlink Colors for Dark Background */
 a:link {
   color: #FFCC00 !important; /* Golden yellow for unvisited links */
